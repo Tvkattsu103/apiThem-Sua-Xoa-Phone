@@ -5,13 +5,19 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
+    "seed": "node seeder/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.13.0"
+    "mongoose": "^5.13.0",
+    "mongoose-seed": "^0.6.0",
+    "path": "^0.12.7"
   }
 }
